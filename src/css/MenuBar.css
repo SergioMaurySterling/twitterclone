@@ -1,0 +1,342 @@
+.MenuBar{
+    width: 285px;
+    height: 1922px;
+    border: solid 1px #E7ECF0;
+}
+
+.MenuBar-buttons-container{
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 32px;
+}
+
+.MenuBar-logo{
+    margin-bottom: 32px;
+    padding-left: 10px;
+}
+
+.MenuBar-button-home{
+    width: 113px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-home:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-hashtag{
+    width: 140px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-hashtag:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-notifications{
+    width: 185px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-notifications:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-messages{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-messages:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-bookmarks{
+    width: 165px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-bookmarks:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-list{
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-list:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-profile{
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-profile:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-more{
+    width: 105px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.MenuBar-button-more:hover{
+    background-color: rgb(240, 238, 238);
+}
+
+.MenuBar-button-tweet{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: #1DA1F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border:none;
+}
+
+.MenuBar-button-tweet:hover{
+    background-color: #117dc0;
+}
+
+.MenuBar-buttons-text{
+    color: #333333;
+    font-size: 19px;
+    padding-right: 10px;
+    font-family: 'Roboto';
+}
+
+.MenuBar-icons{
+    padding-left: 10px;
+    width: 26px;
+    height: 26px;
+    padding-right: 10px;
+}
+
+.MenuBar-tweet-button-text{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media (max-width: 1275px) {
+    .MenuBar{
+        width: 285px;
+        height: 1922px;
+        border: solid 1px #E7ECF0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .MenuBar-buttons-container{
+        width: 64px;
+        margin-left: 70px;
+        margin-top: 32px;
+    }
+
+    .MenuBar-buttons-text{
+        display: none;
+    }
+
+    .MenuBar-icons{
+        padding-left: 5px;
+        width: 26px;
+        height: 26px;
+        padding-right: 5px;
+    }
+
+    .MenuBar-button-home{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-home:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-hashtag{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-hashtag:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-notifications{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-notifications:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-messages{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-messages:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-bookmarks{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-bookmarks:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-list{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-list:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-profile{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-profile:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-more{
+        width: 50px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .MenuBar-button-more:hover{
+        background-color: rgb(240, 238, 238);
+    }
+
+    .MenuBar-button-tweet{
+        width: 50px;
+        height: 50px;
+        color: white;
+        background-color: #1DA1F2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        border:none;
+        background-image: url(../images/add_tweet_button.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .MenuBar-button-tweet:hover{
+        background-color: #117dc0;
+    }
+
+    .MenuBar-tweet-button-text{
+        display: none;
+    }
+}

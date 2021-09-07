@@ -1,0 +1,51 @@
+.create-tweet-container{
+    height: 142px;
+    width: 692px;
+    border: solid 1px #E7ECF0;
+}
+
+.create-tweet-subcontainer{
+    display: flex;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    height:80%;
+    border: solid red 1px;
+}
+
+.create-tweet-buttons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-tweet-profile-picture{
+    width: 48px;
+    height: 48px;
+}
+
+.create-tweet-input-box{
+    font-size: 19px;
+    padding-top: 15px;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+.writingTweetStyles{
+    font-size: 19px;
+    padding-top: 15px;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+.create-tweet-box-container{
+    border: blue 1px solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+

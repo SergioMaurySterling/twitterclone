@@ -1,0 +1,13 @@
+.MainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    width: 1366px;
+    height: 2086px;
+    border: solid 1px #1DA1F2;
+    display: flex;
+    font-family: 'Roboto';
+}

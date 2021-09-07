@@ -1,0 +1,22 @@
+.Navbar{
+    height: 70px;
+    width: 692px;
+    border: solid 1px #E7ECF0;
+    display: flex;
+    justify-content: center;
+}
+
+.Navbar-container{
+    width: 630px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.Navbar-text{
+    font-size: 19px;
+    font-weight: 900;
+    color: #000000;
+}
