@@ -10,12 +10,12 @@
     margin-left: 25px;
     margin-top: 10px;
     height:80%;
-    border: solid red 1px;
 }
 
 .create-tweet-buttons-container{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .create-tweet-profile-picture{
@@ -40,12 +40,52 @@
 }
 
 .create-tweet-box-container{
-    border: blue 1px solid;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 10px;
+}
+
+.icons-buttons{
+    width: 35px;
+    height: 35px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.icons-buttons:hover{
+    background-color: #1da0f21e;
+}
+
+.adders-buttons-container{
+    display: flex;
+}
+
+.icons-buttons-img{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.create-create-tweet-button{
+    height: 42px;
+    width: 98px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 55px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
