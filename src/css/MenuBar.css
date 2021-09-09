@@ -1,7 +1,7 @@
 .MenuBar{
     width: 285px;
     height: 1922px;
-    border: solid 1px #E7ECF0;
+    border-right: solid 1px #e7ecf065;
 }
 
 .MenuBar-buttons-container{

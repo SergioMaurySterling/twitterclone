@@ -1,7 +1,7 @@
 .create-tweet-container{
     height: 142px;
     width: 692px;
-    border: solid 1px #E7ECF0;
+    border-bottom: solid 1px #e7ecf065;
 }
 
 .create-tweet-subcontainer{
