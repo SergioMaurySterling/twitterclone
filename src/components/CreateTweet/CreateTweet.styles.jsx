@@ -1,54 +1,51 @@
-.create-tweet-container{
+import styled from 'styled-components'
+
+export const MainTweetContainer = styled.div `
     height: 142px;
     width: 692px;
     border-bottom: solid 1px #e7ecf065;
-}
-
-.create-tweet-subcontainer{
+`
+export const CreateTweetSubcontainer = styled.div `
     display: flex;
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 10px;
     height:80%;
-}
+`
 
-.create-tweet-buttons-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.create-tweet-profile-picture{
+export const CreateTweetProfilePicture = styled.img `
     width: 48px;
     height: 48px;
-}
+`
 
-.create-tweet-input-box{
-    font-size: 19px;
-    padding-top: 15px;
-    border: none;
-    outline: none;
-    color: #000000;
-}
-
-.writingTweetStyles{
-    font-size: 19px;
-    padding-top: 15px;
-    border: none;
-    outline: none;
-    color: #000000;
-}
-
-.create-tweet-box-container{
+export const CreateTweetBoxContainer = styled.div `
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 10px;
-}
+`
 
-.icons-buttons{
+export const CreateTweetInputBox = styled.input `
+    font-size: 19px;
+    padding-top: 15px;
+    border: none;
+    outline: none;
+    color: #000000;
+`
+
+export const CreateTweetButtonsContainer = styled.div `
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+`
+
+export const AddersButtonContainer = styled.div `
+    display: flex;
+`
+
+export const IconsButtons = styled.button `
     width: 35px;
     height: 35px;
     margin-right: 24px;
@@ -60,24 +57,19 @@
     align-items: center;
     background-color: transparent;
     border-radius: 20px;
-}
 
-.icons-buttons:hover{
-    background-color: #1da0f21e;
-}
+    &:hover {
+        background-color: #1da0f21e;
+    }
+`
 
-.adders-buttons-container{
-    display: flex;
-}
-
-.icons-buttons-img{
+export const IconsButtonsImg = styled.img `
     width: 20px;
     height: 20px;
     margin: 0px;
     padding: 0px;
-}
-
-.create-create-tweet-button{
+`
+export const CreateTweetButton = styled.button `
     height: 42px;
     width: 98px;
     background-color: #1DA1F2;
@@ -87,5 +79,8 @@
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-}
 
+    &:hover {
+        background-color: #117dc0;
+    }
+`
