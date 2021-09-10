@@ -39,10 +39,12 @@ export const CreateTweetButtonsContainer = styled.div `
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    border-top: solid 1px #e7ecf065;
 `
 
 export const AddersButtonContainer = styled.div `
     display: flex;
+    padding-top: 10px;
 `
 
 export const IconsButtons = styled.button `
@@ -63,12 +65,6 @@ export const IconsButtons = styled.button `
     }
 `
 
-export const IconsButtonsImg = styled.img `
-    width: 20px;
-    height: 20px;
-    margin: 0px;
-    padding: 0px;
-`
 export const CreateTweetButton = styled.button `
     height: 42px;
     width: 98px;
@@ -83,4 +79,34 @@ export const CreateTweetButton = styled.button `
     &:hover {
         background-color: #117dc0;
     }
+`
+
+export const TweetButtonContaner = styled.div `
+    width: 197px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+`
+
+export const IconsButtonsImg = styled.img `
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+`
+
+export const Line = styled.td `
+    border-left: 1px solid #BDBDBD;
+    height: 70%;
+`
+
+export const CaptainDiv = styled.div `
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    margin-right: 10px;
 `

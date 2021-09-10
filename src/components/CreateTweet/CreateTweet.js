@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 /*Images*/
 import icon1 from '../images/icon1.png'
@@ -6,6 +6,8 @@ import icon2 from '../images/icon2.png'
 import icon3 from '../images/icon3.png'
 import icon4 from '../images/icon4.png'
 import bigpp from '../images/big_profile_pic.png'
+import plus from '../images/plus.png'
+import elipse from '../images/elipse.png'
 
 /*styles*/
 import {MainTweetContainer,
@@ -17,11 +19,27 @@ import {MainTweetContainer,
         AddersButtonContainer,
         IconsButtons,
         IconsButtonsImg,
-        CreateTweetButton
+        CreateTweetButton,
+        TweetButtonContaner,
+        Line,
+        CaptainDiv
         } from '../CreateTweet/CreateTweet.styles.jsx'
 
 
 export const CreateTweet = () => {
+
+    const [show, setShow] = useState(false);
+
+    const handleChange = (e) => {
+        let r = e.target.value
+        console.log(r.lenght)
+        if (r) {
+            setShow(true)
+        } else {
+            setShow (false)
+        }
+    }
+
 
     return(
         <React.Fragment>
@@ -31,7 +49,7 @@ export const CreateTweet = () => {
                         <CreateTweetProfilePicture src={bigpp} alt='Profile'/>
                     </div>
                     <CreateTweetBoxContainer>
-                        <CreateTweetInputBox type='text' placeholder='¿Qué esta pasando?'/>
+                        <CreateTweetInputBox type='text' onChange={handleChange} placeholder='¿Qué esta pasando?'/>
                         <CreateTweetButtonsContainer>
                             <AddersButtonContainer>
                                 <IconsButtons>
@@ -47,9 +65,18 @@ export const CreateTweet = () => {
                                     <IconsButtonsImg src={icon4} alt='icon'/>
                                 </IconsButtons>
                             </AddersButtonContainer>
-                            <div className='tweet-button-container'>
+                            <TweetButtonContaner>
+                                <CaptainDiv>
+                                    {show &&
+                                        <>
+                                            <IconsButtonsImg src={elipse} alt='icon'/>
+                                            <Line/>
+                                            <IconsButtonsImg src={plus} alt='icon'/>
+                                        </>
+                                    }
+                                </CaptainDiv>
                                 <CreateTweetButton>Tweet</CreateTweetButton>
-                            </div>
+                            </TweetButtonContaner>
                         </CreateTweetButtonsContainer>
                     </CreateTweetBoxContainer>
                 </CreateTweetSubcontainer>

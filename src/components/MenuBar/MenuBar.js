@@ -1,7 +1,7 @@
 import React from 'react';
 
 /*Images*/
-import logo from '../images/twitterLogo.png'
+import logo from '../images/twitterlogo.png'
 import home from '../images/Home.png'
 import hashtag from '../images/Hashtag.png'
 import notification from '../images/Notification.png'
