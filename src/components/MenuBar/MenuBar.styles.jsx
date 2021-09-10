@@ -34,7 +34,7 @@ export const MenuBarButton = styled.button `
     display: flex;
     align-items: center;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 30px;
     background-color: white;
     cursor: pointer;
@@ -49,7 +49,7 @@ export const MenuBarButton = styled.button `
         display: flex;
         align-items: center;
         border: none;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border-radius: 50px;
         background-color: white;
 

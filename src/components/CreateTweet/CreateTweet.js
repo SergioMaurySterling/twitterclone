@@ -29,15 +29,18 @@ import {MainTweetContainer,
 export const CreateTweet = () => {
 
     const [show, setShow] = useState(false);
-
     const handleChange = (e) => {
         let r = e.target.value
-        console.log(r.lenght)
         if (r) {
             setShow(true)
         } else {
             setShow (false)
         }
+    }
+
+    const [tweet, setTweet] = useState({});
+    const handleTweet = (e) => {
+        
     }
 
 
@@ -75,7 +78,7 @@ export const CreateTweet = () => {
                                         </>
                                     }
                                 </CaptainDiv>
-                                <CreateTweetButton>Tweet</CreateTweetButton>
+                                <CreateTweetButton onClick={handleTweet}>Tweet</CreateTweetButton>
                             </TweetButtonContaner>
                         </CreateTweetButtonsContainer>
                     </CreateTweetBoxContainer>
