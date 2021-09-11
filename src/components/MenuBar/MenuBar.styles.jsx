@@ -17,6 +17,7 @@ export const MenubarButtonsContainer = styled.div `
     width: 180px;
     margin-left: 70px;
     margin-top: 32px;
+    position:fixed;
     @media (max-width: 1275px) {
         width: 64px;
         margin-left: 70px;
