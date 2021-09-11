@@ -1,8 +1,7 @@
 import React from 'react'
 
 /*styles*/
-import { TweetBox,TweetProfileImage,TweetIconsFunctions,TweetContentBox, TweetName, TweetLeeters, TweetImg, TopTweetBox, SeparatorDivTweet } from './Tweet.styles'
-import { IconsButtonsImg } from '../CreateTweet/CreateTweet.styles'
+import { TweetBox,MessageButtonTweet,IconsButtonImgTweet,RtButtonTweet,ExportButtonTweet,FavButtonTweet,TweetProfileImage,TweetIconsFunctions,TweetContentBox, TweetName, TweetLeeters, TweetImg, TopTweetBox, SeparatorDivTweet } from './Tweet.styles'
 
 /*Icons*/
 import messageicon from '../images/messageicon.png'
@@ -11,6 +10,7 @@ import favicon from '../images/favicon.png'
 import exporticon from '../images/exporticon.png'
 
 export let Tweet = (props) => {
+
     return(
         <React.Fragment>
             <TweetBox>
@@ -26,18 +26,18 @@ export let Tweet = (props) => {
                     <TweetLeeters>{props.message}</TweetLeeters>
                     <TweetImg src={props.photo} alt='Tweet foto'/>
                     <TopTweetBox>
-                        <TweetIconsFunctions>
-                            <IconsButtonsImg src={messageicon} alt='icon'/>
-                        </TweetIconsFunctions>
-                        <TweetIconsFunctions>
-                            <IconsButtonsImg src={rticon} alt='icon'/>
-                        </TweetIconsFunctions>
-                        <TweetIconsFunctions>
-                            <IconsButtonsImg src={favicon} alt='icon'/>
-                        </TweetIconsFunctions>
-                        <TweetIconsFunctions>
-                            <IconsButtonsImg src={exporticon} alt='icon'/>
-                        </TweetIconsFunctions>
+                        <MessageButtonTweet>
+                            <IconsButtonImgTweet src={messageicon} alt='icon'/>
+                        </MessageButtonTweet>
+                        <RtButtonTweet>
+                            <IconsButtonImgTweet src={rticon} alt='icon'/>
+                        </RtButtonTweet>
+                        <FavButtonTweet>
+                            <IconsButtonImgTweet src={favicon} alt='icon'/>
+                        </FavButtonTweet>
+                        <ExportButtonTweet>
+                            <IconsButtonImgTweet src={exporticon} alt='icon'/>
+                        </ExportButtonTweet>
                     </TopTweetBox>
                 </TweetContentBox>
             </TweetBox>

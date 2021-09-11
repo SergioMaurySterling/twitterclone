@@ -10,7 +10,7 @@ export const Navbar = () => {
     return(
         <MainNavbar>
             <NavbarContainer>
-                <NavbarText>Inicio</NavbarText>
+                <NavbarText>Home</NavbarText>
                 <img className='Navbar-icon' src={favtweets} alt='Icono de tweets destacados'/>
             </NavbarContainer>
         </MainNavbar>

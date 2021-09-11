@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {CreateTweetProfilePicture,IconsButtons} from '../CreateTweet/CreateTweet.styles'
+import {CreateTweetProfilePicture,IconsButtons, IconsButtonsImg} from '../CreateTweet/CreateTweet.styles'
 
 export const TweetBox = styled.div `
     width: auto;
@@ -7,6 +7,10 @@ export const TweetBox = styled.div `
     display: flex;
     padding-left: 25px;
     border-bottom: 1px solid #e7ecf065;
+
+    &:hover {
+        background-color: rgb(240, 238, 238)
+    }
 `
 export const TweetContentBox = styled.div `
     width: 574px;
@@ -40,7 +44,33 @@ export const TweetProfileImage = styled(CreateTweetProfilePicture) `
     margin-top: 10px;
 `
 
-export const TweetIconsFunctions = styled(IconsButtons) `
+export const MessageButtonTweet = styled(IconsButtons) `
     margin-right: 135px;
     margin-bottom: 10px;
+`
+export const RtButtonTweet = styled(IconsButtons) `
+    margin-right: 135px;
+    margin-bottom: 10px;
+
+    &:hover {
+        background-color: rgb(0, 186, 124,0.2);
+    }
+`
+export const FavButtonTweet = styled(IconsButtons) `
+    margin-right: 135px;
+    margin-bottom: 10px;
+
+    &:hover {
+        background-color: rgb(247,35,129,0.2);
+    }
+`
+
+export const ExportButtonTweet = styled(IconsButtons) `
+    margin-right: 135px;
+    margin-bottom: 10px;
+`
+
+export const IconsButtonImgTweet = styled(IconsButtonsImg) `
+    width: 18px;
+    height: 15px;
 `
